@@ -1,0 +1,68 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+.centerPurple{
+    background-color: violet;
+    text-align: center;
+    height: 200px;
+    width: 70%;
+    margin:auto;  
+    padding: inherit;
+    
+}
+
+#green{
+    background-color: aqua;
+    color: green;
+    text-align: left;
+    font-size: 26px;    
+}
+
+.gradient {
+    height: 200px;
+    font-size: 50px;
+    background: linear-gradient(to LEFT, #642A7A,#7B6273,#F5CBE9);
+    text-shadow: 4px 4px 5px white;
+    box-shadow: 100px 100px 50px black;
+    margin: 50px;
+        
+}
+
+.picture{
+   border: 5px solid white ;
+   border-right : 15px dotted red; 
+   border-left : 15px dotted red; 
+}
+
+ul li {
+    color: red;
+    font-size: 20px    
+}
+
+ul > li {
+    color: white;
+    font-size: 30px;
+}
+
+first, #second , .class {
+    color:white;
+}
+
+#second {
+    text-align: center
+}
+
+#pic{
+    border: 15px solid white;
+}
+    
+   
+    
+
+
+

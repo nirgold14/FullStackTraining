@@ -1,0 +1,124 @@
+html{
+    font-family: serif,sans-serif;
+    color:white;
+}
+
+body{
+    background-color:#444;
+   
+    /*inherit = the style of your parent*/
+
+}
+h2{
+    font-size: 30px;
+    font-style: oblique
+}
+
+h3{
+    color: blanchedalmond;
+}
+h3{
+    color: aqua
+}
+
+/*We see that we have priority to the styling by a desecneding order.*/
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+    letter-spacing: 10px;
+}
+
+.format{
+    font-size: 25px;
+}
+
+style1{color:white;
+font-family:'Lacquer';
+line-height: 4rem;
+font-size: 35px;}
+style2{color:white;
+font-family:'Saira Stencil One';
+line-height: 4rem;}
+style3{color:white;
+font-family:'Beth Ellen';
+line-height: 4rem;}
+
+#google {
+ font-size: 45px;   
+}
+
+/*Don't forget to add an emergency font if the browser can't compile our.*/
+
+img{
+    max-width:100%;
+    height:auto;
+    padding: 5px; /*All this so the picture won't change while change the window ratio*/
+    opacity: 0.3;
+    
+    display:block;
+    margin:auto;
+    /*center the img in a created block.*/
+    
+}
+
+.borderIMG{
+    border-radius: 50%;
+    width:500px;
+    height: 500px;
+    border: 20px solid black;
+    padding: 20px;
+}
+
+button{
+    color:white;
+    background-color: red;
+    border-radius:12px;
+    font-size:25px;
+    margin: 50px;
+    padding: 20px 17px;
+}
+
+------------------
+
+ul > li {
+    color:yellow;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.row::after{
+    /*every time a row is created make this happen...*/
+    display:block;
+    clear:both;
+    content:"";
+}
+
+.col-1{width:8.33%}
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.3%}
+.col-11{width:91.66%}
+.col-12{width:100%}
+/*We divided the 100% to 12 pieces- so we can't have more than 12 in total.*/
+
+* {
+    box-sizing: :border-box;
+    /*keep all of our content in the realistic size*/
+}
+
+[class*="col-"]{
+    border: 10px solid red;
+    padding:15px;
+    float:left;
+}
