@@ -20,7 +20,7 @@ git status--> git add --> git commit
 3. "git add" to our local repo.
 4. "git commit"
 5. BEFORE YOU PUSH
-6. git pull down from origin -(remote REPO) 
+6. "git pull origin master" down from origin -(remote REPO) 
 7. pull = git fetch + git merge
-8. now we can "git push" to the remote repository.
+8. now we can "git push origin master" to the remote repository.
 ----------------
