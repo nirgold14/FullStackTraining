@@ -1,0 +1,6 @@
+1. cd to your current project directory
+2. cmd: 
+    $ sass --watch sass:css
+    tracking the sass directory and convert to css.
+
+    
