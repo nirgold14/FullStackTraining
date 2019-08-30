@@ -1,0 +1,9 @@
+Build DB:
+
+1. $mongod - open the mongo server
+2. $mongo - enter the DB
+3. use *DB_Name*
+4. Insert:
+    db.products.insert({"price":40.99,"title":"Vault Boy Bobble Head","imgUrl":"https://s3-us-west-2.amazonaws.com/devslopesvideo/vault.JPG"})
+    db.products.insert({"price":129.50,"title":"Link's Shield","imgUrl":"https://s3-us-west-2.amazonaws.com/devslopesvideo/shield.png"})
+    db.products.insert({"price":400,"title":"Lancer","imgUrl":"https://s3-us-west-2.amazonaws.com/devslopesvideo/lancer.jpg"})

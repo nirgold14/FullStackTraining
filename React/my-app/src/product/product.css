@@ -1,0 +1,11 @@
+.product{
+    max-width: 15rem;
+    min-height: 20rem;
+    display:block;
+    margin:auto;
+}
+
+.product img{
+    max-height: 10rem;
+}
+

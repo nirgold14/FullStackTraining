@@ -18,7 +18,6 @@
 4. Bootstrap needs Jquery and Library-Tether (system for grid)
     4.1 Download jquery compressed cdn from jquery weebsite
     4.2 save the jquery-3.4.0.min to the js directory
-    
     4.3 same as tether..download and extract min.js to js folder like in this project.
 
 5. Import everything in the index.html:
@@ -50,6 +49,7 @@
 --- Start
     
 1. Create a service for the http requests
-    1.2 cd to the react project: npm install --save whatwg-fetch (Library for HTTP req)
-    
+    1.1 cd to the react project: npm install --save whatwg-fetch (Library for HTTP req)
+    1.2 import at services\http.service.js
+     
     
