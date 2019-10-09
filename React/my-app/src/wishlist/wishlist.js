@@ -24,7 +24,7 @@ function WishList(props){
     function CreateWishList (){
         const list = wishList.map( (product) =>
               
-                <ProductList product= {product} key={product._id}/>
+                <ProductList product={product} key={product._id}/>
         );
         
         return list;        
